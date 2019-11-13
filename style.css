@@ -37,3 +37,56 @@ li{
 .foto{
 	margin-right:60px;
 }
+.body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+span{
+	font-size: 28px;
+}
+.item1, .item2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 30px;
+}
+.item1{
+	background-color: #CCE5FF;
+	border: 1px solid #CCE5FF;
+	border-radius: 7px;
+	
+}
+.item2{
+
+}
+.left, .center, .right{
+	text-transform: uppercase;
+	text-align: center;
+	color: #1B5589;
+	font-size: 18px;
+	padding: 7px;
+}
+.left, .avatar{
+	flex-basis: 20%;
+}
+.center, .right, .info, .password{
+	flex-basis: 38%;
+} 
+.item2{
+	
+}
+button{
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+	background-color: #6C757D;
+	border: 1px solid #6C757D;
+	border-radius: 7px;
+	padding: 10px;
+}
+.avatar button{
+	width: 256px;
+}
