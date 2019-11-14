@@ -23,7 +23,7 @@
 			<div class="right">chenge password</div>
 		</div>
 		<div class="item2">
-			<form>
+			<form action="mail.php" method="post" name="student's form">
 				<div class="avatar">
 					<img src="img/av_256.png" alt="avavtar"><br>
 					<button>Choose photo</button>
@@ -35,13 +35,14 @@
 					<input type="text" placeholder="Phone number" maxlength="15" name="number" required pattern="[0-9]"><br>
 					<input type="text" placeholder="Address" name="address"><br>
 					<input type="text" placeholder="FB link" name="fb"><br>
-					<button></button>
+					<button>Save changes</button>
 				</div>
 				<div class="password">
-					<input type="text">
-					<input type="text">
-					<input type="text">
-					<button></button>
+					<input type="password" placeholder="Old password" 
+					><br>
+					<input type="password" placeholder="New password"><br>
+					<input type="password" placeholder="Repeat password"><br>
+					<button>Chenge password</button>
 				</div>
 			</form>
 		</div>

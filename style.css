@@ -1,7 +1,6 @@
 body{
 	margin: 0 auto;
 	padding: 0;
-	width: 1280px;
 }
 .header, .body{
 	width: 100%;
@@ -43,9 +42,11 @@ li{
 	padding: 0;
 }
 span{
+	display: block;
+	margin-top: 30px;
 	font-size: 28px;
 }
-.item1, .item2{
+.item1, form{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -58,9 +59,6 @@ span{
 	border: 1px solid #CCE5FF;
 	border-radius: 7px;
 	
-}
-.item2{
-
 }
 .left, .center, .right{
 	text-transform: uppercase;
@@ -76,7 +74,11 @@ span{
 	flex-basis: 38%;
 } 
 .item2{
-	
+	margin: 0;
+	padding-top: 10px;
+}
+.info{
+	margin: 0;
 }
 button{
 	color: #fff;
@@ -85,8 +87,21 @@ button{
 	background-color: #6C757D;
 	border: 1px solid #6C757D;
 	border-radius: 7px;
-	padding: 10px;
+	padding: 12px;
+	margin: 0;
 }
 .avatar button{
 	width: 256px;
+}
+input{
+	width: 90%;
+	font-size: 17px;
+	border: 2px solid #E5E8EB;
+	border-radius: 5px;
+	padding: 12px;
+	padding-left: 20px;
+	margin-bottom: 17px;
+}
+.info button, .password button{
+	width: 97%;
 }
